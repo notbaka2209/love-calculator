@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+    box-sizing: border-box;    
+}
+html{
+    font-size: 62.5%;
+
+    /* @media only screen and (min-width: 1500px) {
+        font-size: 50%;
+    } */
+
+    
+}
+@media only screen and (max-width: 1500px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+.body{
+    position: relative;
+}
+.logo{
+    width: 7rem;
+    height: 6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.starting{
+    height: 100vh;
+    max-width: 100vw;
+    
+}
+.container{
+    margin: 0 auto;
+    background-image: url(background3.jpg);
+    height: 80vh;
+    width: 80%;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.container-text{
+    color: white;
+    margin: 0 auto;
+    font-size: 4.7rem;
+}
+.calculation{
+    background-image: url(background3.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.calc{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.calculated_text{
+    background-color: #ff0a54;
+    display: inline-block;
+    font-size: 2.5rem;
+    font-family: 'Fredoka One', cursive;
+    padding: 1.5rem 2.5rem;
+    border-radius: 3rem;
+    color: aliceblue;
+    margin-bottom: 5rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, .1);
+}
+
+.name_box{
+    background: linear-gradient(120deg,#f093fb 0%,#f5576c 100%);
+    width: 50%;
+    font-size: 5rem;
+    font-family: 'Fredoka One', cursive;
+    color: aliceblue;
+    padding: 4.5rem 6.5rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    box-shadow: 1rem 1rem 0  #ff0a54;
+}
+
+.name_container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn{
+    font-family: 'Fredoka One', cursive;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding:1rem 3rem;
+    margin-top: 6rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, .1);
+    transition: all .2s;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: #f093fb;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+.icon{
+    font-size: 2rem;
+}
+
+.name_box-text{
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 2rem;
+}
+
+#name1_text,
+#name2_text{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    padding: 1rem 0;
+}
+#name1_text:active,
+#name2_text:active{
+    border: none;
+    background-color: transparent;
+}
+
+
+
+input{
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 3px;
+}
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.love-quote{
+    background-color: #ff0a54;
+    display: inline-block;
+    color: aliceblue;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, .1);
+}
+.love-quote_heading{
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    margin-bottom: 2rem
+
+}
+.love-quote_text{
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    letter-spacing: .5rem;
+
+}
